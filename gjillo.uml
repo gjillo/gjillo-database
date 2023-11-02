@@ -3,102 +3,103 @@
   <ID>DATABASE</ID>
   <OriginalElement>a69da061-33c5-4cde-a13c-7f1b0fb4f1be.SCHEMA:gjillo.core</OriginalElement>
   <nodes>
-    <node x="25.61271021152578" y="1.9651639344263003">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.users</node>
-    <node x="77.11271021152578" y="347.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.card_users</node>
-    <node x="340.62889738800357" y="202.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards</node>
-    <node x="62.61271021152578" y="-222.0696721311474">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.project_users</node>
-    <node x="619.4524715877745" y="322.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_values</node>
-    <node x="619.4524715877745" y="143.75530780547746">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_options</node>
-    <node x="857.2760457875455" y="322.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.text_values</node>
-    <node x="253.12889738800357" y="-222.0696721311474">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.columns</node>
-    <node x="340.62889738800357" y="1.9651639344263003">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.milestones</node>
-    <node x="1246.6168678829808" y="322.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.number_values</node>
-    <node x="631.9524715877747" y="-46.48938438904513">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields</node>
-    <node x="1054.7932936832099" y="322.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.date_values</node>
-    <node x="598.9524715877747" y="-222.0696721311474">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.projects</node>
+    <node x="623.1607142857142" y="286.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards</node>
+    <node x="892.8176492819349" y="-180.38514879636062">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.projects</node>
+    <node x="913.317649281935" y="406.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_values</node>
+    <node x="1725.5512447482029" y="406.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.date_values</node>
+    <node x="623.1607142857142" y="32.58673469387756">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.milestones</node>
+    <node x="1147.0013227513225" y="406.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.text_values</node>
+    <node x="345.8890778533637" y="438.3673469387755">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.card_users</node>
+    <node x="925.817649281935" y="32.58673469387756">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields</node>
+    <node x="331.3890778533637" y="-189.4617307141265">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.project_users</node>
+    <node x="913.3176492819348" y="231.2933673469388">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_options</node>
+    <node x="1310.184630083616" y="406.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.number_values</node>
+    <node x="524.4773117153258" y="-174.4617307141265">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.columns</node>
+    <node x="1514.3679374159094" y="406.0">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.checkbox_values</node>
+    <node x="294.3890778533637" y="113.5">a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.users</node>
   </nodes>
   <notes />
   <edges>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.date_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" relationship="REFERENCES">
       <point x="0.0" y="56.0" />
-      <point x="1122.7932936832099" y="516.0" />
-      <point x="422.12931259268197" y="516.0" />
-      <point x="-29.999584795321596" y="116.0" />
+      <point x="1793.5512447482029" y="597.0" />
+      <point x="674.661" y="597.0" />
+      <point x="-59.999714285714276" y="116.0" />
+    </edge>
+    <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.checkbox_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" relationship="REFERENCES">
+      <point x="0.0" y="-56.0" />
+      <point x="1604.3679374159094" y="82.58673469387756" />
+      <point x="78.5" y="-30.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.card_users" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" relationship="REFERENCES">
       <point x="63.5" y="0.0" />
-      <point x="-111.5" y="72.5" />
+      <point x="-111.5" y="79.86734693877548" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.card_users" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.users" relationship="REFERENCES">
       <point x="0.0" y="-43.5" />
       <point x="0.0" y="116.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_options" relationship="REFERENCES">
-      <point x="0.0" y="-56.0" />
+      <point x="-2.2737367544323206E-13" y="-56.0" />
       <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.projects" relationship="REFERENCES">
+      <point x="-1.1368683772161603E-13" y="-80.0" />
+      <point x="0.0" y="56.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.date_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" relationship="REFERENCES">
       <point x="0.0" y="-56.0" />
-      <point x="1122.7932936832099" y="3.5109999999999957" />
-      <point x="78.5" y="-29.999615610954876" />
-    </edge>
-    <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.projects" relationship="REFERENCES">
-      <point x="0.0" y="-68.0" />
-      <point x="0.0" y="56.0" />
+      <point x="1793.5512447482029" y="67.58673469387756" />
+      <point x="78.5" y="-45.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.project_users" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.users" relationship="REFERENCES">
       <point x="0.0" y="56.0" />
-      <point x="140.61271021152578" y="103.1831812755554" />
       <point x="0.0" y="-116.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" relationship="REFERENCES">
-      <point x="-2.928336054992542E-4" y="56.0" />
-      <point x="710.452178754169" y="486.0" />
-      <point x="452.12931259268197" y="486.0" />
-      <point x="4.1520467840427955E-4" y="116.0000440391891" />
+      <point x="-91.0" y="0.0" />
+      <point x="111.5" y="60.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_options" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" relationship="REFERENCES">
-      <point x="91.0" y="0.0" />
-      <point x="818.9524715877745" y="211.75530780547746" />
-      <point x="818.9524715877745" y="48.511" />
-      <point x="78.5" y="15.00038438904513" />
+      <point x="3.507180651922681E-4" y="-68.00036734693879" />
+      <point x="3.5071806496489444E-4" y="80.00026530612243" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.milestones" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.projects" relationship="REFERENCES">
       <point x="0.0" y="-80.0" />
-      <point x="452.12889738800357" y="-151.0696721311474" />
-      <point x="-111.5" y="15.0" />
+      <point x="734.6607142857142" y="-124.38514879636062" />
+      <point x="-111.5" y="0.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.select_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" relationship="REFERENCES">
-      <point x="90.9997071663945" y="0.0" />
-      <point x="838.6878533538643" y="378.0" />
-      <point x="838.6878533538643" y="33.511" />
-      <point x="78.49970716639439" y="3.843890451307175E-4" />
-    </edge>
-    <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.text_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" relationship="REFERENCES">
-      <point x="0.0" y="-56.0" />
-      <point x="923.2760457875455" y="18.511000000000003" />
-      <point x="78.5" y="-14.99961561095487" />
+      <point x="91.0" y="0.0" />
+      <point x="1133.3176492819348" y="462.0" />
+      <point x="1133.3176492819348" y="127.58673469387756" />
+      <point x="78.5" y="15.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.number_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" relationship="REFERENCES">
       <point x="0.0" y="56.0" />
-      <point x="1333.1168678829808" y="531.0" />
-      <point x="407.12931259268197" y="531.0" />
-      <point x="-44.999584795321596" y="116.0" />
+      <point x="1396.684630083616" y="567.0" />
+      <point x="704.661" y="567.0" />
+      <point x="-29.999714285714276" y="116.0" />
+    </edge>
+    <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.text_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" relationship="REFERENCES">
+      <point x="0.0" y="-56.0" />
+      <point x="1213.0013227513225" y="112.58673469387756" />
+      <point x="78.5" y="0.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.text_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" relationship="REFERENCES">
       <point x="0.0" y="56.0" />
-      <point x="923.2760457875455" y="501.0" />
-      <point x="437.12931259268197" y="501.0" />
-      <point x="-14.999584795321596" y="116.0" />
+      <point x="1213.0013227513225" y="552.0" />
+      <point x="719.661" y="552.0" />
+      <point x="-14.999714285714276" y="116.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.columns" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.projects" relationship="REFERENCES">
-      <point x="87.5" y="-36.0" />
-      <point x="-111.5" y="0.0" />
+      <point x="87.5" y="-56.92341808223412" />
+      <point x="-111.5" y="-15.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.project_users" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.projects" relationship="REFERENCES">
       <point x="0.0" y="-56.0" />
-      <point x="140.61271021152578" y="-239.5696721311474" />
-      <point x="710.4524715877747" y="-239.5696721311474" />
+      <point x="409.3890778533637" y="-206.9617307141265" />
+      <point x="1004.3176492819349" y="-206.9617307141265" />
       <point x="0.0" y="-56.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.milestones" relationship="REFERENCES">
@@ -107,19 +108,23 @@
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.columns" relationship="REFERENCES">
       <point x="-111.5" y="0.0" />
-      <point x="323.12889738800357" y="318.0" />
-      <point x="-17.5" y="92.0" />
+      <point x="605.6607142857142" y="402.0" />
+      <point x="-6.316597429611534" y="92.0" />
     </edge>
     <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.number_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.fields" relationship="REFERENCES">
       <point x="0.0" y="-56.0" />
-      <point x="1333.1168678829808" y="-11.489000000000004" />
-      <point x="78.5" y="-44.999615610954876" />
+      <point x="1396.684630083616" y="97.58673469387756" />
+      <point x="78.5" y="-15.0" />
+    </edge>
+    <edge source="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.checkbox_values" target="a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.cards" relationship="REFERENCES">
+      <point x="0.0" y="56.0" />
+      <point x="1604.3679374159094" y="582.0" />
+      <point x="689.661" y="582.0" />
+      <point x="-44.999714285714276" y="116.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.8703862660944208" showDependencies="false" x="497.0" y="177.0" />
-  <SelectedNodes>
-    <node>a69da061-33c5-4cde-a13c-7f1b0fb4f1be.TABLE:gjillo.core.columns</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic" zoom="0.6438166980539862" showDependencies="false" x="971.1904468954734" y="227.34466719188782" />
+  <SelectedNodes />
   <Categories>
     <Category>Columns</Category>
     <Category>Comments</Category>
